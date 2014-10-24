@@ -1,7 +1,7 @@
 split-the-molecules
 ===================
 
-Tap a molecule to split it. Splitting the molecule into single atoms and will cause a molecule chain reaction.
+Tap a molecule to split it. Splitting the molecule into single atoms and cause a molecule chain reaction.
 The goal of the game is to pass each level by splitting minimum number of molecules set for each level.
 The theme of the game is thrilling exploration of the unseen world of chemistry.
 This game tries to capture it with idea of chaos and randomness at molecular level.
