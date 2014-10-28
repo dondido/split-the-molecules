@@ -10,6 +10,12 @@ This game tries to capture it with idea of chaos and randomness at molecular lev
 'Split the Molecules' is a multiplatform and cross browser game that explores minimalistic design and resolution independent gameplay. Its design is sleek and utilises landscape and portrait responsive formatting so it is compatible on any device. This game is created by mixing both DOM and Canvas technologies.
 The main game area is rendered the using HTML Canvas' low level drawing APIs , and all the Game UI (eg.  menus, buttons and text) with DOM elements that are overlapping the canvas element. It's also ported to ported to Android by using a custom Java wrapper.
 
+Browser game - http://splitthemolecules.publicgamelibrary.com/
+
+Chrome Web app - https://chrome.google.com/webstore/detail/split-the-molecules/mopkochpoadeghdghnkccfpegekcjhhb
+
+Android APK file (including Java wrapper with Admob Banner and Interstitial Ads and Google Analytics Integration) - https://play.google.com/store/apps/details?id=com.publicgamelibrary.splitthemolecules
+
 MIT License
 
 Copyright (c) 2014 Dian Dimitrov
