@@ -1,0 +1,18 @@
+{
+  "manifest_version":2,
+  "name":"Split The Molecules",
+  "description":"The theme of the game is thrilling exploration of the unseen world of chemistry.",
+  "version":"4",
+  "icons":{
+    "128":"128x128.png"
+  },
+  "app":{
+    "launch":{
+      "web_url":"http://splitthemolecules.publicgamelibrary.com/chromeapp/index.html"
+    }
+  },
+  "permissions":[
+    "unlimitedStorage"
+  ],
+  "offline_enabled":true
+}

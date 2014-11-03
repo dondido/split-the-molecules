@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Split the molecules</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+	<div id="main">
+    <div id="game">
+      <canvas id="canvas"></canvas>
+      <div class="pause btn" data-fn="pauseGame"></div>
+      <div class="lives"> Lives: <span class="number"></span></div>
+      <div class="molecules"> Target: 
+        <span class="number"></span> / 
+        <span class="molecules-min"></span> / 
+        <span class="max"></span>
+      </div>
+      <div class="next-level">
+        <div class="panel">
+          <div class="level-complete">complete</div>
+          <div class="level-fail">level failed</div>
+          <div class="end game-over">game over</div>
+          <div class="game-complete">Smashing! You have completed all levels. Try again and make the perfect combos to beat the hiscore!</div>
+          <div class="complete-excellent">Excellent! You have gained an extra life.</div>
+          <div class="level"> Level: <span class="number"></span></div>
+          <div class="score"> Score: <span class="number"></span></div>
+          <div class="goal">
+            <span>Tap a molecule to split it. Split <span class="molecules-min"></span> molecules to pass the level.</span>
+          </div>
+          <span class="start btn" data-fn="initNext">start</span>
+          <span class="refresh btn" data-fn="refreshNext">refesh</span>
+          <span class="continue btn" data-fn="continueNext">continue</span>
+          <span class="end btn" data-fn="exitGameOver">exit</span>
+        </div>
+      </div>
+    </div>
+    <div class="screen" id="game-nav">
+      <div class="panel">
+        <h1 class="game-title">split the molecules</h1>
+        <span class="btn" data-fn="initGame">new game</span>
+        <span class="btn restore" data-fn="restoreGame">continue</span>
+        <input type="checkbox" name="checkbox" value="value" id="sound">
+        <label class="btn sound" for="sound">Sound: O</label>
+        <a class="btn" href="https://github.com/dondido/split-the-molecules" target="_blank">source</a>
+        <a class="btn" href="http://publicgamelibrary.com" target="_blank">more games</a>
+        <div class="hiscore"> Hi-Score: <span class="number"></span></div>
+      </div>
+    </div>
+  </div>
+  <audio id="split1" preload>
+    <source src="split1.mp3">
+  </audio>
+  <audio id="split2" preload>
+    <source src="split2.mp3">
+  </audio>
+  <audio id="split3" preload>
+    <source src="split3.mp3">
+  </audio>
+  <audio id="split4" preload>
+    <source src="split4.mp3">
+  </audio>
+  <audio id="split5" preload>
+    <source src="split5.mp3">
+  </audio>
+  <audio id="win" preload>
+    <source src="win.mp3">
+  </audio>
+  <script src="LevelData.js"></script>
+	<script src="GameEngine.js"></script>
+  <script src="GameUI.js"></script>
+</body>
+</html>
